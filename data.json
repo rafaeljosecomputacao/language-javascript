@@ -1,0 +1,23 @@
+{
+    "English":
+    {
+        "title": "What is machine learning?",
+        "subtitle": "Learn all about this area in this article",
+        "caption": "Machine learning algorithm",
+        "description": "Machine learning is an area of artificial intelligence and computer science that focuses on using data and algorithms to mimic the way humans learn, gradually improving their accuracy."
+    },
+    "Español":
+    {
+        "title": "¿Qué es el aprendizaje automático?",
+        "subtitle": "Aprende todo sobre esta área en este artículo",
+        "caption": "Algoritmo de aprendizaje automático",
+        "description": "El aprendizaje automático es un área de la inteligencia artificial y la informática que se centra en el uso de datos y algoritmos para imitar la forma en que los humanos aprenden, mejorando gradualmente su precisión."
+    },
+    "Português":
+    {
+        "title": "O que é aprendizado de máquina?",
+        "subtitle": "Saiba tudo sobre essa área neste artigo",
+        "caption": "Algoritmo de aprendizado de máquina",
+        "description": "Aprendizado de máquina é uma área da inteligência artificial e da ciência da computação que se concentra no uso de dados e algoritmos para imitar a maneira como os humanos aprendem, melhorando gradualmente sua precisão."
+    }
+}
