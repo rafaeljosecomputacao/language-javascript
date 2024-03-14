@@ -1,0 +1,157 @@
+/* Variables */
+:root {
+    --primary-color: #1967d2;
+    --secondary-color: #858585;
+    --light-color: #FFFFFF;
+    --dark-color: #151515;
+}
+
+/* General */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--light-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 2rem;
+}
+
+.main-header,
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.main-header {
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main-brand,
+.main-brand span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.main-brand {
+    color: var(--primary-color);
+}
+
+.main-brand span {
+    color: var(--dark-color);
+}
+
+.main-select {
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-weight: 300;
+    padding: 5px 10px;    
+    cursor: pointer;   
+    border: none;
+    outline: none;
+}
+
+.main-select option {
+    color: var(--dark-color);
+    font-weight: 300; 
+}
+
+.main-content {
+    align-items: start;
+}
+
+.main-image {
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.main-figure {
+    border: 1px solid var(--secondary-color);
+    padding: .5rem;
+}
+
+.main-figure img {
+    width: 100%;
+}
+
+.main-caption {
+    color: var(--secondary-color);
+    font-size: .8rem;
+    font-weight: 300;
+    font-style: italic;
+    padding: .5rem;
+    text-align: center;
+}
+
+.main-text {
+    width: 50%;
+    padding-left: 1rem;
+}
+
+.main-title {
+    color: var(--dark-color);
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+.main-text hr {
+    background-color: var(--secondary-color);
+    height: 1px;
+    border-width: 0;
+}
+
+.main-subtitle {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.main-description {
+    color: var(--dark-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    /* Main */
+    .main {
+        width: 90%;
+        margin: 2rem 0;
+    }
+
+    .main-content {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-image,
+    .main-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-title {
+        margin-top: 2rem;
+    }
+}
